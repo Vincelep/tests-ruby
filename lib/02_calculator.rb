@@ -22,9 +22,9 @@ def multiply (a, b)
 end
 
 def power (a, b)
-	a ^ b 
+	a ** b 
 end
 
-def factorial
-	
+def factorial (a)
+	(1..a).inject(:*) || 1
 end
